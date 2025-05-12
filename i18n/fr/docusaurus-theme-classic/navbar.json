@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "Logo WeShare",
+    "description": "Le texte alternatif du logo de la barre de navigation"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutoriel",
+    "description": "Élément de la barre de navigation avec label Tutoriel"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Élément de la barre de navigation avec label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Élément de la barre de navigation avec label GitHub"
+  }
+}

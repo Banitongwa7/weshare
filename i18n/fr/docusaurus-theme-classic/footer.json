@@ -1,0 +1,38 @@
+{
+  "link.title.Documents": {
+    "message": "Documents",
+    "description": "Le titre de la colonne de liens du pied de page avec title=Documents"
+  },
+  "link.title.Opportunities": {
+    "message": "Opportunités",
+    "description": "Le titre de la colonne de liens du pied de page avec title=Opportunités"
+  },
+  "link.title.More": {
+    "message": "Plus",
+    "description": "Le titre de la colonne de liens du pied de page avec title=Plus"
+  },
+  "link.item.label.All Documents": {
+    "message": "Tous les Documents",
+    "description": "L'étiquette du lien du pied de page avec label=Tous les Documents liant vers /docs/intro"
+  },
+  "link.item.label.All Opportunities": {
+    "message": "Toutes les Opportunités",
+    "description": "L'étiquette du lien du pied de page avec label=Toutes les Opportunités liant vers #"
+  },
+  "link.item.label.Add Opportunity": {
+    "message": "Ajouter une Opportunité",
+    "description": "L'étiquette du lien du pied de page avec label=Ajouter une Opportunité liant vers #"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "L'étiquette du lien du pied de page avec label=Blog liant vers /blog"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "L'étiquette du lien du pied de page avec label=GitHub liant vers https://github.com/Banitongwa7/weshare.git"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 WeShare, Développé avec ❤️ par <a href=\"https://david-banitongwa.vercel.app/\" target=\"_blank\">David B.</a>",
+    "description": "Le copyright du pied de page"
+  }
+}
