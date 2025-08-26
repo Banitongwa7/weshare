@@ -87,7 +87,6 @@ const config: Config = {
         style: {
           paddingLeft: '1rem',
         },
-        href: 'https://weshare-project.vercel.app/',
       },
       items: [
         {
