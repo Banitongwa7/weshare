@@ -12,7 +12,7 @@ function HeroIllustration() {
   return (
     <div className={styles.heroIllustrationWrapper}>
       <img
-        src="/img/hero-illustration.svg"
+        src="/img/hero.gif"
         alt="WeShare - Knowledge & Opportunities Hub"
         className={styles.heroIllustration}
         loading="eager"

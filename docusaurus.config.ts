@@ -84,6 +84,10 @@ const config: Config = {
       logo: {
         alt: 'WeShare Logo',
         src: 'img/logo/logo.svg',
+        style: {
+          paddingLeft: '1rem',
+        },
+        href: 'https://weshare-project.vercel.app/',
       },
       items: [
         {
@@ -93,56 +97,15 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/Banitongwa7/weshare.git',
-          label: 'GitHub',
           position: 'right',
+          label: 'Explore',
         },
+        {to: '/blog', label: 'News', position: 'right'},
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Documents',
-          items: [
-            {
-              label: 'All Documents',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Opportunities',
-          items: [
-            {
-              label: 'All Opportunities',
-              href: '#',
-            },
-            {
-              label: 'Add Opportunity',
-              href: '#',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Banitongwa7/weshare.git',
-            }
-          ],
-        },
-      ],
+      style: 'light',
+      links: [],
       copyright: `Copyright © ${new Date().getFullYear()} WeShare, Built with ❤️ by <a href="https://david-banitongwa.vercel.app/" target="_blank">David B.</a>`,
     },
     prism: {

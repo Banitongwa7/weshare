@@ -11,7 +11,7 @@ interface FeatureItem {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Academic Resources',
-    image: '/img/academic-resources.svg',
+    image: '/img/share.svg',
     description: (
       <>
         Access a comprehensive collection of academic materials including reports, 
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Career Opportunities',
-    image: '/img/career-opportunities.svg',
+    image: '/img/world.svg',
     description: (
       <>
         Find internships and work-study positions that match your academic path. 
