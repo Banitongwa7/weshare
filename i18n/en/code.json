@@ -336,5 +336,50 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Simple. Focused. Effective.": {
+    "message": "Simple. Focused. Effective."
+  },
+  "Academic resources and professional opportunities in one place": {
+    "message": "Academic resources and professional opportunities in one place"
+  },
+  "Knowledge Sharing": {
+    "message": "Knowledge Sharing"
+  },
+  "Access and share academic resources including reports, dissertations, summaries, and final year projects from students across different institutions.": {
+    "message": "Access and share academic resources including reports, dissertations, summaries, and final year projects from students across different institutions."
+  },
+  "Academic Resources": {
+    "message": "Academic Resources"
+  },
+  "Find valuable study materials and research work shared by previous students to help with your academic journey.": {
+    "message": "Find valuable study materials and research work shared by previous students to help with your academic journey."
+  },
+  "Internship Opportunities": {
+    "message": "Internship Opportunities"
+  },
+  "Discover internship positions posted by companies looking for talented students.": {
+    "message": "Discover internship positions posted by companies looking for talented students."
+  },
+  "Work-Study Programs": {
+    "message": "Work-Study Programs"
+  },
+  "Access exclusive work-study opportunities that allow you to gain professional experience while studying.": {
+    "message": "Access exclusive work-study opportunities that allow you to gain professional experience while studying."
+  },
+  "Two Essential Features": {
+    "message": "Two Essential Features"
+  },
+  "Everything you need, nothing you don't": {
+    "message": "Everything you need, nothing you don't"
+  },
+  "Access a comprehensive collection of academic materials including reports, dissertations, summaries, and final year projects. Build on the knowledge of previous students.": {
+    "message": "Access a comprehensive collection of academic materials including reports, dissertations, summaries, and final year projects. Build on the knowledge of previous students."
+  },
+  "Career Opportunities": {
+    "message": "Career Opportunities"
+  },
+  "Find internships and work-study positions that match your academic path. Start building your professional career while studying.": {
+    "message": "Find internships and work-study positions that match your academic path. Start building your professional career while studying."
   }
 }

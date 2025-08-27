@@ -8,8 +8,8 @@ export default function HomepageFeatures(): JSX.Element {
     <section className={styles.features}>
       <div className="container">
         <div className={styles.sectionTitle}>
-          <h2>Two Essential Features</h2>
-          <p>Everything you need, nothing you don't</p>
+          <h2><Translate>Two Essential Features</Translate></h2>
+          <p><Translate>Everything you need, nothing you don't</Translate></p>
         </div>
         <div className="row">
           <div className={clsx("col col--6")}>
@@ -23,11 +23,11 @@ export default function HomepageFeatures(): JSX.Element {
                 />
               </div>
               <div className={styles.featureContent}>
-                <h3>Academic Resources</h3>
+                <h3><Translate>Academic Resources</Translate></h3>
                 <p>
-                  Access a comprehensive collection of academic materials
+                  <Translate>Access a comprehensive collection of academic materials
                   including reports, dissertations, summaries, and final year
-                  projects. Build on the knowledge of previous students.
+                  projects. Build on the knowledge of previous students.</Translate>
                 </p>
               </div>
             </div>
@@ -44,11 +44,11 @@ export default function HomepageFeatures(): JSX.Element {
                 />
               </div>
               <div className={styles.featureContent}>
-                <h3>Career Opportunities</h3>
+                <h3><Translate>Career Opportunities</Translate></h3>
                 <p>
-                  Find internships and work-study positions that match your
+                  <Translate>Find internships and work-study positions that match your
                   academic path. Start building your professional career while
-                  studying.
+                  studying.</Translate>
                 </p>
               </div>
             </div>
