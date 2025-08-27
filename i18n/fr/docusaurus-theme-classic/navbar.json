@@ -1,18 +1,18 @@
 {
   "logo.alt": {
-    "message": "Logo WeShare",
-    "description": "Le texte alternatif du logo de la barre de navigation"
+    "message": "WeShare Logo",
+    "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Tutoriel",
-    "description": "Élément de la barre de navigation avec label Tutoriel"
+  "item.label.Explore": {
+    "message": "Explore",
+    "description": "Navbar item with label Explore"
   },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Élément de la barre de navigation avec label Blog"
+  "item.label.News": {
+    "message": "News",
+    "description": "Navbar item with label News"
   },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Élément de la barre de navigation avec label GitHub"
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
   }
 }
