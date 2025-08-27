@@ -28,7 +28,7 @@ export default function Contact() {
             Message
             <textarea name="message" rows={5} required style={{ width: '100%', padding: '0.5rem', borderRadius: 6, border: '1px solid #ccc' }} />
           </label>
-          <button type="submit" style={{ background: '#6a82fb', color: '#fff', padding: '0.75rem 2rem', border: 'none', borderRadius: 6, fontWeight: 600 }}>
+          <button type="submit" style={{ background: '#6a82fb', color: '#fff', padding: '0.75rem 2rem', border: 'none', borderRadius: 6, fontWeight: 600, cursor: 'pointer' }}>
             Send Message
           </button>
         </form>

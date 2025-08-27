@@ -100,6 +100,7 @@ const config: Config = {
           label: 'Explore',
         },
         {to: '/blog', label: 'News', position: 'right'},
+        {to: '/contact', label: 'Contact', position: 'right'}
       ],
     },
     footer: {
