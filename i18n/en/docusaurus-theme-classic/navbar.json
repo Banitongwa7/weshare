@@ -1,0 +1,18 @@
+{
+  "logo.alt": {
+    "message": "WeShare Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Explore": {
+    "message": "Explore",
+    "description": "Navbar item with label Explore"
+  },
+  "item.label.News": {
+    "message": "News",
+    "description": "Navbar item with label News"
+  },
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  }
+}

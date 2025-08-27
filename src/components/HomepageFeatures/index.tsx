@@ -1,57 +1,7 @@
-import React, { JSX} from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
-
-interface FeatureItem {
-  title: string;
-  image: string;
-  description: JSX.Element;
-}
-
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Academic Resources',
-    image: '/img/share.svg',
-    description: (
-      <>
-        Access a comprehensive collection of academic materials including reports, 
-        dissertations, summaries, and final year projects. Build on the knowledge 
-        of previous students.
-      </>
-    ),
-  },
-  {
-    title: 'Career Opportunities',
-    image: '/img/world.svg',
-    description: (
-      <>
-        Find internships and work-study positions that match your academic path. 
-        Start building your professional career while studying.
-      </>
-    ),
-  }
-];
-
-function Feature({ title, image, description }: FeatureItem) {
-  return (
-    <div className={clsx('col col--6')}>
-      <div className={styles.featureCard}>
-        <div className={styles.featureImageContainer}>
-          <img 
-            className={styles.featureImage} 
-            src={image} 
-            alt={title} 
-            loading="lazy"
-          />
-        </div>
-        <div className={styles.featureContent}>
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </div>
-      </div>
-    </div>
-  );
-}
+import React, { JSX } from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
+import Translate from "@docusaurus/Translate";
 
 export default function HomepageFeatures(): JSX.Element {
   return (
@@ -62,9 +12,47 @@ export default function HomepageFeatures(): JSX.Element {
           <p>Everything you need, nothing you don't</p>
         </div>
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+          <div className={clsx("col col--6")}>
+            <div className={styles.featureCard}>
+              <div className={styles.featureImageContainer}>
+                <img
+                  className={styles.featureImage}
+                  src="/img/share.svg"
+                  alt="Academic Resources"
+                  loading="lazy"
+                />
+              </div>
+              <div className={styles.featureContent}>
+                <h3>Academic Resources</h3>
+                <p>
+                  Access a comprehensive collection of academic materials
+                  including reports, dissertations, summaries, and final year
+                  projects. Build on the knowledge of previous students.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className={clsx("col col--6")}>
+            <div className={styles.featureCard}>
+              <div className={styles.featureImageContainer}>
+                <img
+                  className={styles.featureImage}
+                  src="/img/world.svg"
+                  alt="Career Opportunities"
+                  loading="lazy"
+                />
+              </div>
+              <div className={styles.featureContent}>
+                <h3>Career Opportunities</h3>
+                <p>
+                  Find internships and work-study positions that match your
+                  academic path. Start building your professional career while
+                  studying.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

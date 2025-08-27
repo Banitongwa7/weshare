@@ -1,12 +1,13 @@
-import type { JSX, ReactNode } from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import type { JSX, ReactNode } from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Heading from "@theme/Heading";
+import Translate from "@docusaurus/Translate";
 
-import styles from './index.module.css';
+import styles from "./index.module.css";
 
 function HeroIllustration() {
   return (
@@ -27,9 +28,9 @@ function AnimatedSection({ children }: { children: ReactNode }) {
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <div className={styles.heroContent}>
           <div className={styles.heroText}>
@@ -37,28 +38,32 @@ function HomepageHeader() {
               WeShare
             </Heading>
             <p className="hero__subtitle">
-              Share knowledge, find opportunities
+              <Translate>Share knowledge, find opportunities</Translate>
             </p>
             <p className={styles.heroDescription}>
-              <strong>WeShare</strong> is a platform where students can share and access academic 
-              work while discovering exclusive internships and work-study positions.
-              <br /><br />
-              Access valuable resources from previous students and find your next professional 
-              opportunity, all in one place.
+              <strong>WeShare</strong>{" "}
+              <Translate>
+                is a platform where students can share and access academic work
+                while discovering exclusive internships and work-study
+                positions.
+              </Translate>
+              <br />
+              <br />
+              <Translate>
+                Access valuable resources from previous students and find your
+                next professional opportunity, all in one place.
+              </Translate>
             </p>
             <div className={styles.buttons}>
-              <Link
-                className="button button--secondary button--lg"
-                to="#"
-              >
-                Browse Documents 📚
+              <Link className="button button--secondary button--lg" to="#">
+                <Translate>Browse Documents 📚</Translate>
               </Link>
               <Link
                 className="button button--outline button--lg"
                 to="#"
                 style={{ marginLeft: 16 }}
               >
-                Find Opportunities 💼
+                <Translate>Find Opportunities 💼</Translate>
               </Link>
             </div>
           </div>
@@ -69,55 +74,53 @@ function HomepageHeader() {
   );
 }
 
-function InfoCard({ icon, title, description }: { icon: string; title: string; description: string }) {
-  return (
-    <div className={styles.infoCard}>
-      <h3>{icon} {title}</h3>
-      <p>{description}</p>
-    </div>
-  );
-}
-
 function InfoSection() {
-  const features = [
-    {
-      icon: "📚",
-      title: "Knowledge Sharing",
-      description: "Access and share academic resources including reports, dissertations, summaries, and final year projects from students across different institutions."
-    },
-    {
-      icon: "🎓",
-      title: "Academic Resources",
-      description: "Find valuable study materials and research work shared by previous students to help with your academic journey."
-    },
-    {
-      icon: "💼",
-      title: "Internship Opportunities",
-      description: "Discover internship positions posted by companies looking for talented students."
-    },
-    {
-      icon: "🔄",
-      title: "Work-Study Programs",
-      description: "Access exclusive work-study opportunities that allow you to gain professional experience while studying."
-    }
-  ];
-
   return (
     <section className={styles.infoSection}>
       <div className="container">
         <div className={styles.sectionTitle}>
-          <h2>Simple. Focused. Effective.</h2>
-          <p>Academic resources and professional opportunities in one place</p>
+          <h2>
+            <Translate>Simple. Focused. Effective.</Translate>
+          </h2>
+          <p>
+            <Translate>
+              Academic resources and professional opportunities in one place
+            </Translate>
+          </p>
         </div>
         <div className={styles.infoGrid}>
-          {features.map((feature, index) => (
-            <InfoCard
-              key={index}
-              icon={feature.icon}
-              title={feature.title}
-              description={feature.description}
-            />
-          ))}
+          <div className={styles.infoCard}>
+            <h3>📚 <Translate>Knowledge Sharing</Translate></h3>
+            <p>
+              <Translate>Access and share academic resources including reports,
+              dissertations, summaries, and final year projects from students
+              across different institutions.</Translate>
+            </p>
+          </div>
+
+          <div className={styles.infoCard}>
+            <h3>🎓 <Translate>Academic Resources</Translate></h3>
+            <p>
+              <Translate>Find valuable study materials and research work shared by previous
+              students to help with your academic journey.</Translate>
+            </p>
+          </div>
+
+          <div className={styles.infoCard}>
+            <h3>💼 <Translate>Internship Opportunities</Translate></h3>
+            <p>
+              <Translate>Discover internship positions posted by companies looking for
+              talented students.</Translate>
+            </p>
+          </div>
+
+          <div className={styles.infoCard}>
+            <h3>🔄 <Translate>Work-Study Programs</Translate></h3>
+            <p>
+              <Translate>Access exclusive work-study opportunities that allow you to gain
+              professional experience while studying.</Translate>
+            </p>
+          </div>
         </div>
       </div>
     </section>
