@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Suivant",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Documents": {
@@ -8,7 +8,7 @@
     "description": "The label for category Documents in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Opportunities": {
-    "message": "Opportunities",
+    "message": "Opportunités",
     "description": "The label for category Opportunities in sidebar tutorialSidebar"
   }
 }

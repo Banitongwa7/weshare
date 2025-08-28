@@ -87,11 +87,11 @@
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
+    "message": "Précedent",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
+    "message": "Suivant",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -122,7 +122,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "Modifier cette page",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -347,39 +347,39 @@
     "message": "Partage de connaissances"
   },
   "Access and share academic resources including reports, dissertations, summaries, and final year projects from students across different institutions.": {
-    "message": "Access and share academic resources including reports, dissertations, summaries, and final year projects from students across different institutions."
+    "message": "Accéder et partager des ressources universitaires, notamment des rapports, des thèses, des résumés et des projets de fin d'études, provenant d'étudiants de différentes institutions."
   },
   "Academic Resources": {
-    "message": "Academic Resources"
+    "message": "Ressources Universitaires"
   },
   "Find valuable study materials and research work shared by previous students to help with your academic journey.": {
-    "message": "Find valuable study materials and research work shared by previous students to help with your academic journey."
+    "message": "Trouvez des matériaux d'étude précieux et des travaux de recherche partagés par des étudiants précédents pour vous aider dans votre parcours académique."
   },
   "Internship Opportunities": {
-    "message": "Internship Opportunities"
+    "message": "Stages et opportunités de travail"
   },
   "Discover internship positions posted by companies looking for talented students.": {
-    "message": "Discover internship positions posted by companies looking for talented students."
+    "message": "Découvrez les offres de stage proposées par des entreprises à la recherche d'étudiants talentueux."
   },
   "Work-Study Programs": {
-    "message": "Work-Study Programs"
+    "message": "Programmes travail-études"
   },
   "Access exclusive work-study opportunities that allow you to gain professional experience while studying.": {
-    "message": "Access exclusive work-study opportunities that allow you to gain professional experience while studying."
+    "message": "Accédez à des opportunités de travail-études exclusives qui vous permettent de gagner de l'expérience professionnelle tout en étudiant."
   },
   "Two Essential Features": {
-    "message": "Two Essential Features"
+    "message": "Deux fonctionnalités essentielles"
   },
   "Everything you need, nothing you don't": {
-    "message": "Everything you need, nothing you don't"
+    "message": "Tout ce dont vous avez besoin, rien de superflu"
   },
   "Access a comprehensive collection of academic materials including reports, dissertations, summaries, and final year projects. Build on the knowledge of previous students.": {
-    "message": "Access a comprehensive collection of academic materials including reports, dissertations, summaries, and final year projects. Build on the knowledge of previous students."
+    "message": "Accédez à une collection complète de matériaux académiques, notamment des rapports, des thèses, des résumés et des projets de fin d'études. Bâtissez sur les connaissances des étudiants précédents."
   },
   "Career Opportunities": {
-    "message": "Career Opportunities"
+    "message": "Opportunités de carrière"
   },
   "Find internships and work-study positions that match your academic path. Start building your professional career while studying.": {
-    "message": "Find internships and work-study positions that match your academic path. Start building your professional career while studying."
+    "message": "Trouvez des stages et des postes de travail-études qui correspondent à votre parcours académique. Commencez à bâtir votre carrière professionnelle pendant vos études."
   }
 }
