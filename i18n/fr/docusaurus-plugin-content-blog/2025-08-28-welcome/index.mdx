@@ -1,0 +1,74 @@
+---
+slug: welcome-post
+title: Bienvenue sur WeShare
+description: WeShare a platform where students share academic work and discover exclusive internships and work‑study positions.
+authors: [davidb]
+tags: [welcome]
+---
+
+<style>
+{`
+.welcome-container {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #eef2f3 100%);
+  border-radius: 1rem;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadeInDown 1s ease;
+}
+
+.welcome-subtitle {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  color: #374151;
+  line-height: 1.6;
+  animation: fadeInUp 1.5s ease;
+}
+
+.welcome-quote {
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #111827;
+  background: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  display: inline-block;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  animation: pulse 2s infinite;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  50% { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+}
+`}
+</style>
+
+<div className="welcome-container">
+  <h1 className="welcome-title">Bienvenue sur Weshare</h1>
+
+  <p className="welcome-subtitle">
+    Weshare est une plateforme où les étudiants peuvent partager et accéder à des travaux académiques
+    tout en découvrant des stages et des opportunités de travail-études exclusives.
+  </p>
+  <div className="welcome-quote">“Partagez les connaissances, trouvez des opportunités”</div>
+</div>
+{/* truncate */}

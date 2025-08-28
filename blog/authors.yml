@@ -1,23 +1,9 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+davidb:
+  name: David B.
+  title: Developer of WeShare
+  url: https://david-banitongwa.vercel.app/
+  image_url: https://avatars.githubusercontent.com/u/72260919?s=400&u=bc0819ac1d86f9c6352e30b3d9adca6821d5aede&v=4
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    github: Banitongwa7
+    linkedin: david-banitongwa
